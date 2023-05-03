@@ -1,0 +1,208 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+body{
+    max-width:100%;
+}
+/*=== Header Section ===*/
+#navbar{
+    position:fixed;
+    width: 100%;
+    background: none!important;
+    z-index:3;
+}
+.navbar-brand h1{
+    color: #0ec162;
+    text-decoration: none;
+    background-color: white;
+}
+.navbar-toggler,.navbar-toggler-icon{
+    background-color: #18d26e;
+}
+.navbar .nav-item a:hover{
+    border: 2px solid #18d26e;
+    justify-content: space-between;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.nav-link{
+    background-color: white;
+}
+/*=== Media Query for Navbar ===*/
+@media (min-width:1025px) and  (max-width:1500px) {
+    .nav-list{
+        margin-left:35rem;
+    }
+}
+@media (max-width: 700px) { 
+    .nav-list{
+        margin-left:35rem;
+    } 
+}
+@media (max-width:1024px) {
+    .nav-list{
+        margin-left:20rem;
+    } 
+}
+@media (max-width: 400px) {
+    .nav-list{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}
+/*=== End of Media Query for Navbar ===*/
+
+/*===Home Section===*/
+.home{
+    background-image: url('./Images/My-pics/cover-port.jpg');
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    background-size: cover;
+    z-index: 1;
+}
+.hero-name{
+    top: 50%;
+    left:50%;
+    position:absolute;
+    z-index: 2;
+    background:none;
+}
+.hero-name h1{
+    font-size: 4rem;
+    color: #038c43;
+    background:none;
+}
+.sentence-custom{
+    font-size:2rem;
+    background:none;
+}
+.word-custom{
+    color: #038c43;
+    background:none;
+}
+.social-links a i{
+    color: #038c43;
+    font-size: 1.5rem;
+    background:none;
+}
+.social-links a{
+    background:none;
+}
+.social-links{
+    background:none;
+}
+/*=== Media Query for Home Section ===*/
+@media (min-width: 900px) and (max-width: 1500px){
+    .social-links a i{
+        color: black;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) { 
+    .home .hero-name{
+        background-color: beige;
+        padding: 1rem;
+    }
+    .hero-name h1{
+        font-size: 2rem;
+    }
+    .sentence-custom{
+        font-size:1rem;
+    }
+}
+@media (min-width: 300px) and (max-width: 599px) {
+    .home{
+        background-image:url('./Images/My-pics/cover-port.jpg');
+        background-position: center;
+        background-size: auto;
+    }
+    .home .hero-name{
+        background-color: beige;
+        padding: 1rem;
+        margin-left: -10%;
+        margin-right: 10%;
+    }
+    .hero-name h1{
+        font-size: 1rem;
+    }
+    .sentence-custom{
+        font-size:0.5rem;
+    }
+}
+/*=== End of Media Query for Home Section ===*/
+
+.progress-bar{
+    background-color: #18d26e;
+}
+/*=== Contact section ===*/
+.contact .info-box {
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid #18d26e;
+    background-color: black;
+}
+.contact .info-box i {
+    font-size: 2rem;
+    color: #18d26e;
+    padding: 14px;
+    float: left;
+}
+.contact .info-box h3 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+}
+.contact .info-box p {
+    padding: 0;
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+.contact .info-box .social-links {
+    margin: 5px 0 0 68px;
+    display: flex;
+}
+.contact .info-box .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    margin-right: 12px;
+    transition: 0.3s;
+}
+.contact .info-box .social-links a:hover {
+    color: #18d26e;
+}
+.send button[type=submit] {
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: white;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+  
+  .send button[type=submit]:hover {
+    background: #15bb62;
+  }
+  
+/* Overall Styling*/
+
+h1,h2,h3{
+    color: #18d26e;
+}
+.form-control{
+    color: white;
+    border: 2px solid #18d26e;
+}
+/*===== End of CSS =====*/
