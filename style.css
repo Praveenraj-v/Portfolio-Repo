@@ -69,6 +69,7 @@ body{
     height:100vh;
     width:100%;
     position:relative;
+    background-attachment:fixed;
     background-size:cover;
     z-index:1;
 }
@@ -84,19 +85,23 @@ body{
     font-size:4rem;
     color:#038c43;
     background:none;
+    text-shadow: 2px 1px 8px white;
 }
 .sentence-custom{
     font-size:2rem;
     background:none;
+    text-shadow: 1px 1px 5px white;
 }
 .word-custom{
     color:#038c43;
     background:none;
+    text-shadow: 1px 1px 5px white;
 }
 .social-links a i{
     color:#038c43;
     font-size:1.5rem;
     background:none;
+    text-shadow: 2px 1px 8px white;
 }
 .social-links a{
     background:none;
